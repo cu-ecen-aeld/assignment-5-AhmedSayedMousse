@@ -1,0 +1,6 @@
+
+config BR2_PACKAGE_LDD
+	bool "LDD"
+	depends on BR2_LINUX_KERNEL
+	help
+	  Includes the files necessary to load and unload the scull & misc modules.
